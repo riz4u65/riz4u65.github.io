@@ -1,6 +1,4 @@
-Here is the complete text for your **README.md** file. You can copy and paste this directly into your project!
 
-```markdown
 # Step School System - Students List Webpage
 
 A simple, static HTML webpage designed to display a list of active students within the **Step School System**. This project serves as a basic template for displaying tabular data with minimal stylized components.
