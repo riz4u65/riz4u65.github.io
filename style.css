@@ -1,0 +1,68 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family:  Cambria, Georgia, serif;
+    background: #f4f6f9;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: Red;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background: #007bff;
+    color: Red;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+table tbody tr:hover {
+    background: #dbeafe;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
